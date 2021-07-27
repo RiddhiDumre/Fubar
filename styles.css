@@ -1,0 +1,191 @@
+body {
+    
+    margin: 0;
+    color: white;
+    font-size: 1.1rem;
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, 0.578);
+    background-color: black;
+}
+
+
+h3{
+    margin-top: 38px;
+    margin-left: -75%;
+}
+
+header{
+    margin-top: -10px;
+    position: relative;
+    transition-duration: 2s;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 5px ,5px;
+}
+
+.logo{
+    padding: 20px;
+    cursor: pointer;
+}
+
+.nav-area li{
+    display: inline-block;
+    padding: 15px;
+   
+}
+.nav-area li a{
+    
+    color: #fff;
+}
+.nav-area li a:hover{
+  
+    transition: 0.5s;
+    color: #ffffff5d;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    
+    
+}
+
+.nav-bar a:visited{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+
+
+hr{
+    opacity: 30%;
+}
+#myVideo {
+   position: fixed;
+    opacity: 20%;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+.gen{
+    transition-duration: 2s;  
+    font-family: monospace;
+    font-size: 1.8rem;
+    letter-spacing: 30px;
+    margin-top: 5%;
+    text-align: center;
+    position: relative;
+   
+}
+.fav{
+    transition-duration: 2s;  
+    font-family: monospace;
+    font-size: 0.8rem;
+    letter-spacing: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+    position: relative;
+   
+}
+.list1{
+    align-content: center;
+    margin-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 15%;
+    font-weight: lighter;
+    letter-spacing: 0rem;
+    position: relative;
+    word-spacing: 1rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    display: run-in;
+    text-align: left;
+}
+
+td{
+    text-align: left;
+    width: 2200px;
+}
+
+.list1 a{
+    color: white;
+    text-decoration: none;
+}
+.list1 li{
+    margin-top: 3rem;
+}
+.content {
+    transition-duration: 2s;  
+    font-family: monospace;
+    font-size: 1.8rem;
+    letter-spacing: 30px;
+    margin-top: 17%;
+    padding-bottom: 300px;
+    text-align: center;
+    position: relative;
+  
+}
+button{
+    background-color:  rgb(9, 156, 167);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+button:hover{
+   background-color: rgba(105, 104, 104, 0.404);
+    color: white;
+    
+  
+}
+
+button a:visited{
+    color: white;
+}
+.footer{
+
+
+    margin-left: -30px;
+}
+.footer img{
+    
+  
+    filter: invert(100%);
+    
+}
+.footer ul{
+    
+    display: inline;
+}
+.footer li{
+    padding: 5px;
+    display: inline;
+}
+.icons img{
+    filter: invert(100%);
+}
+.icons a:hover{
+    transition-duration: 0.5s;
+    opacity: 20%;
+}
+.icons2{
+    margin-top: 7%;
+   
+    filter: invert(100%);
+}
+.icons2 a:hover{
+    transition-duration: 0.5s;
+    opacity: 20%;
+}
+p{
+    margin-top: 12%;
+    text-align: center;
+}
+
+  
